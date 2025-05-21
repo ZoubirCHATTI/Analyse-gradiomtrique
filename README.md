@@ -15,8 +15,6 @@ Ce projet utilise des méthodes statistiques (IQR) et d'intelligence artificiell
 
 ## 📁 Fichiers
 - `Gradiometric_Data_Tipaza.ipynb` : notebook principal
-- `data/` : (optionnel) données d’entrée
-- `images/` : (optionnel) images générées
 
 ## ▶️ Exécution
 ```bash
