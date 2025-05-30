@@ -16,12 +16,6 @@ Ce projet utilise des méthodes statistiques (IQR) et d'intelligence artificiell
 ## 📁 Fichiers
 - `Gradiometric_Data_Tipaza.ipynb` : notebook principal
 
-## ▶️ Exécution
-```bash
-pip install -r requirements.txt
-jupyter notebook
-```
-
 ## 📦 Requirements
 Voir `requirements.txt`
 
