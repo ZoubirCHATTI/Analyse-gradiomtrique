@@ -36,28 +36,13 @@ pip freeze > requirements.txt
 
 ## Utilisation
 
-1.  **Cloner le dépôt (si applicable) ou télécharger le notebook :**
+##Ouvrir et exécuter le notebook:
+## Exécution:
 
-    ```bash
-    git clone <URL_DU_DEPOT>
-    cd <NOM_DU_DEPOT>
-    ```
+Pour l'exécution du code il suffit d'appuyer sur:  
 
-2.  **Placer le fichier de données :**
+  [![Binder](https://mybinder.org/badge_logo.svg)](https://hub.2i2c.mybinder.org/user/zoubirchatti-an-e-gradiomtrique-y129xtm9/doc/tree/notebook/gradio_Tipaza.ipynb)
 
-    Assurez-vous que le fichier de données `G_data.xlsx` est placé dans le répertoire `data/` à la racine de votre projet, comme spécifié dans le notebook (`path_file=("../data/G_data.xlsx")`). Créez ce répertoire si nécessaire.
-
-3.  **Lancer Jupyter Notebook ou JupyterLab :**
-
-    ```bash
-    jupyter notebook
-    # ou
-    jupyter lab
-    ```
-
-4.  **Ouvrir et exécuter le notebook :**
-
-    Dans l'interface Jupyter, naviguez jusqu'au fichier `gradio_Tipaza.ipynb` et ouvrez-le. Exécutez les cellules séquentiellement pour reproduire l'analyse et les visualisations.
 
 ## Structure des Données
 
