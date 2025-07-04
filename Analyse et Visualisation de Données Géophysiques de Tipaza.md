@@ -100,5 +100,5 @@ Les principales bibliothèques Python utilisées dans ce notebook sont :
 -   `scikit-learn`: Spécifiquement `sklearn.ensemble.IsolationForest` pour la détection des outliers.
 -   `scipy`: Spécifiquement `scipy.interpolate.griddata` pour l'interpolation des données et la création de grilles pour les cartes de contour.
 
-**Auteur :** Manus AI
+**Auteur :** Zoubir CHATTI
 
