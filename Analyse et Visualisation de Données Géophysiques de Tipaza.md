@@ -22,7 +22,8 @@ pip install pandas numpy matplotlib scikit-learn scipy
 
 Pour l'exécution du code il suffit d'appuyer sur:  
 
-  [![Binder](https://mybinder.org/badge_logo.svg)](https://hub.2i2c.mybinder.org/user/zoubirchatti-an-e-gradiomtrique-y129xtm9/doc/tree/notebook/gradio_Tipaza.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.2i2c.mybinder.org/user/zoubirchatti-an-e-gradiomtrique-hiv6zwvq/doc/tree/notebook)
+
 
 
 ## Structure des Données
