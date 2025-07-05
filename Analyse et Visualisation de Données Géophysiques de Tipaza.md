@@ -1,10 +1,10 @@
 # Analyse et Visualisation de Données Géophysiques de Tipaza
 
-Ce projet Jupyter Notebook (`gradio_Tipaza.ipynb`) est dédié à l'analyse et à la visualisation de données géophysiques provenant de la région de Tipaza. Il utilise des bibliothèques Python courantes telles que `pandas`, `numpy`, `matplotlib` et `scikit-learn` pour le traitement, l'analyse et la représentation graphique des données.
+Ce projet est dédié à l'analyse et à la visualisation de données géophysiques (magnétiques) provenant de la région de Tipaza. Il utilise des bibliothèques Python courantes telles que `pandas`, `numpy`, `matplotlib` et `scikit-learn` pour le traitement, l'analyse et la représentation graphique des données.
 
 ## Description du Projet
 
-L'objectif principal de ce notebook est de traiter et d'analyser des données gradiomagnétiques afin d'identifier des anomalies et de visualiser les variations spatiales des champs mesurés. Le processus inclut le chargement des données, l'exploration initiale, la détection et le traitement des valeurs aberrantes (outliers) à l'aide de la méthode IQR (Interquartile Range) et de l'algorithme Isolation Forest, ainsi que la création de grilles de données pour la visualisation sous forme de cartes de contour.
+L'objectif principal de ce projet est de traiter et d'analyser des données gradiomagnétiques afin d'identifier des anomalies et de visualiser les variations spatiales des champs mesurés. Le processus inclut le chargement des données, l'exploration initiale, la détection et le traitement des valeurs aberrantes (outliers) à l'aide de la méthode IQR (Interquartile Range) et de l'algorithme Isolation Forest, ainsi que la création de grilles de données pour la visualisation sous forme de cartes de contour.
 
 Ce projet est utile pour les géophysiciens, les chercheurs ou toute personne intéressée par l'analyse de données spatiales et la détection d'anomalies dans des ensembles de données géoscientifiques.
 
@@ -18,25 +18,6 @@ Pour exécuter ce notebook, vous aurez besoin d'un environnement Python avec les
 pip install pandas numpy matplotlib scikit-learn scipy
 ```
 
-Il est recommandé de créer un environnement virtuel pour gérer les dépendances :
-
-```bash
-python -m venv venv
-source venv/bin/activate  # Sur Windows, utilisez `venv\Scripts\activate`
-pip install -r requirements.txt
-```
-
-Si vous n'avez pas de fichier `requirements.txt`, vous pouvez le générer après avoir installé les dépendances nécessaires :
-
-```bash
-pip freeze > requirements.txt
-```
-
-
-
-## Utilisation
-
-##Ouvrir et exécuter le notebook:
 ## Exécution:
 
 Pour l'exécution du code il suffit d'appuyer sur:  
@@ -45,12 +26,12 @@ Pour l'exécution du code il suffit d'appuyer sur:
 
 
 ## Structure des Données
-
+   
 Le notebook charge un fichier Excel nommé `G_data.xlsx`. D'après l'analyse initiale (`data.info()` et `data.head()`), le fichier de données contient 1008 entrées et 4 colonnes, toutes de type `float64` et sans valeurs manquantes. Les colonnes sont :
 
--   `X`: Coordonnée X (géographique ou spatiale).
--   `y`: Coordonnée Y (géographique ou spatiale).
--   `Z`: Coordonnée Z (profondeur ou altitude).
+-   `X`: Coordonnée X (géographique).
+-   `y`: Coordonnée Y (géographique).
+-   `Z`: Coordonnée Z (altitude).
 -   `G`: Valeur gradiomagnétique mesurée.
 
 Un aperçu des premières lignes (`data.head()`) montre des valeurs numériques pour ces colonnes, par exemple :
